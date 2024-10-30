@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="precisedocking" type="precise_docking" name="fus_precisedocking" output="screen">
+        <param name="final_msg_out_topic" type="string" value="/final_pose" />
+    </node>
+    <!-- <node pkg="precisedocking" type="precise_docking" name="fus_precisedocking" output="screen"/>
+    <node pkg="precisedocking" type="precisedocking" name="precisedocking" ns="fus_precisedocking"/> -->
+    
+</launch>
